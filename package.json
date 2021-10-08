@@ -1,0 +1,25 @@
+{
+  "name": "game-room",
+  "version": "0.0.0",
+  "description": "A client/server application which facilitates playing card and dice games over the web",
+  "author": "Adam Lacoste <adam.lacoste@hotmail.com>",
+  "license": "ISC",
+  "homepage": "https://github.com/adamlacoste/game-room#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/adamlacoste/game-room.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adamlacoste/game-room/issues"
+  },
+  "main": "./main.mjs",
+  "exports": "./main.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "card-sharp": "^0.1.2",
+    "roll": "^1.3.1"
+  }
+}
